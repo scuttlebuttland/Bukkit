@@ -43,6 +43,8 @@ public interface Permissible extends ServerOperator {
      * If a permission override is not set on this object, the default value
      * of the permission will be returned
      *
+     * Will see if player has permission string.
+     * 
      * @param perm Permission to get
      * @return Value of the permission
      */
